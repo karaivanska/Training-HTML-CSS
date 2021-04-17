@@ -1,0 +1,92 @@
+html {
+        box-sizing: border-box;
+      }
+*, *:before, *:after {
+        box-sizing: inherit;
+      }
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+body {
+    font-family: Helvetica, Arial;
+    font-size: 18px;
+}
+h1, h2 {
+    color: green;   
+}
+
+h1 {   
+    font-size: 40px;    
+    margin: 15px;
+}
+
+h2 {
+    font-size: 25px;   
+    margin: 15px;
+}
+
+.main-text{
+    text-align: justify;   
+    padding: 25px;
+    
+}
+
+.author{
+    font-size: 17px;
+    font-weight: bold;
+    
+}
+
+.container{
+    width: 1140px;
+   
+    margin: 0 auto 0 auto;
+}
+
+.blog-post {
+    position: relative;
+    width: 75%;
+    float: left;
+    
+}
+
+.author{
+    
+   margin: 10px;
+   
+}
+
+.author-post{   
+    /* width: 25%;  */
+    border-top: 2px solid #333; 
+    padding-top: 20px;
+    margin: 20px;
+
+   
+}
+
+.author-post img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;  
+    float: left;
+   
+}
+
+.date {
+    position: absolute;
+    top: 10px;
+    right: 30px;
+}
+
+.clearfix:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.others{
+    margin: 20px;
+}
